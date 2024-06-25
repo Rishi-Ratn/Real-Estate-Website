@@ -17,16 +17,16 @@ export default function Header() {
         </form>
         <ul className='flex gap-6 '>
             <Link to='/' className='hover:scale-125'>
-            <li className='hidden sm:inline text-slate-700 cursor-pointer font-serif hover:text-red-500 hover:duration-300 hover:scale-125 '>HOME</li>
+            <li className='hidden sm:inline text-slate-700 cursor-pointer hover:text-red-500 hover:duration-300 hover:scale-125 '>HOME</li>
             </Link>
-            <li className='hidden sm:inline text-slate-700 cursor-pointer font-serif hover:text-red-500 hover:duration-300 hover:scale-125 '>BUY</li>
-            <li className='hidden sm:inline text-slate-700 cursor-pointer font-serif hover:text-red-500 hover:duration-300 hover:scale-125 '>SELL</li>
+            <li className='hidden sm:inline text-slate-700 cursor-pointer hover:text-red-500 hover:duration-300 hover:scale-125 '>BUY</li>
+            <li className='hidden sm:inline text-slate-700 cursor-pointer hover:text-red-500 hover:duration-300 hover:scale-125 '>SELL</li>
             <Link to='/about' className='hover:scale-125'>
-            <li className='hidden sm:inline text-slate-700 cursor-pointer font-serif hover:text-red-500 hover:duration-300 hover:scale-125 '>ABOUT</li>
+            <li className='hidden sm:inline text-slate-700 cursor-pointer hover:text-red-500 hover:duration-300 hover:scale-125 '>ABOUT</li>
             </Link>
-            <li className='hidden sm:inline text-slate-700 cursor-pointer font-serif hover:text-red-500 hover:duration-300 hover:scale-125 '>CONTACT</li>
+            <li className='hidden sm:inline text-slate-700 cursor-pointer hover:text-red-500 hover:duration-300 hover:scale-125 '>CONTACT</li>
             <Link to='/sign-up'>
-            <li className=' text-slate-700 cursor-pointer font-serif hover:text-red-500 hover:duration-300 hover:scale-125 '>SIGN UP</li>
+            <li className=' text-slate-700 cursor-pointer hover:text-red-500 hover:duration-300 hover:scale-125 '>SIGN UP</li>
             </Link>
         </ul>
         </div>
