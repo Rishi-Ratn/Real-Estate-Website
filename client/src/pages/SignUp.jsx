@@ -10,14 +10,14 @@ export default function SignUp() {
   const handleChange = (e) =>{
     setFormData(
       {
-        ...formData,
-        [e.target.id]:e.target.value,
+        ...formData,                      // spread operator 
+        [e.target.id]:e.target.value,     // this is like mapping, whatever changes as per the id, it will store it's value
       }
     );
   };
   
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault();                  // prevents refreshing page
 
     try {
       setLoading(true);
